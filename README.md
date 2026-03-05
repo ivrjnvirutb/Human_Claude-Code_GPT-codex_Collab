@@ -1,8 +1,22 @@
-# Human <—> Claude Code <—> GPT Codex 
+# Collaboration Framework v2
 
-A practical framework for reliable **Human + Claude + Codex** collaboration.
+A practical framework for reliable **Human + Claude** and **Human + Claude + Codex** collaboration.
 
 This package helps teams move from ad-hoc prompting to a structured, repeatable workflow with clear roles, scoped execution, and governance checkpoints.
+
+---
+
+## Scope (Important)
+
+This package is designed for:
+- **Human + Claude** collaboration (planning/governance workflows)
+- **Human + Claude + Codex** collaboration (execution handoffs and controls)
+
+This package is **not** intended for:
+- Claude Code agentic-team deployment frameworks
+- generalized subagent orchestration systems
+
+Those are separate patterns and should be documented independently.
 
 ---
 
@@ -23,12 +37,12 @@ This framework addresses those problems with a lightweight operating model that 
 ## What You Get
 
 ```text
-
-|── framework-v2.md                # full methodology
+collab-framework-v2/
+├── framework-v2.md                # full methodology
 ├── START_HERE.md                  # one-file onboarding instructions
 ├── collaboration-profile.yaml     # project-specific configuration
 ├── scripts/
-│   └── scaffold-collab.sh         # executable setup (fresh/migrate/auto)
+│   └── scaffold-collab.sh         # executable setup (auto/fresh/migrate)
 └── README.md                      # package quick start
 ```
 
@@ -56,11 +70,12 @@ This framework addresses those problems with a lightweight operating model that 
 
 ## Setup Paths
 
-### 1) Fresh Install (new repo)
-Generate baseline collaboration files and start with a clean operating contract.
+### 1) Fresh Install (new repo or Human+Claude-only project)
+Generate baseline collaboration files and establish a clean Human+Claude operating contract first.  
+You can add Codex delegation later without redesigning the workflow.
 
-### 2) Migration Overlay (existing repo)
-Detect current state, preserve mature docs, generate migration audit, then patch gaps safely.
+### 2) Migration Overlay (existing Human+Claude+Codex setup)
+Detect current state, preserve mature docs, generate a migration audit, and patch governance gaps safely without wiping project history.
 
 ---
 
@@ -70,7 +85,7 @@ Detect current state, preserve mature docs, generate migration audit, then patch
 2. In Claude Code, run the onboarding instruction from `START_HERE.md`.
 3. Let Claude:
    - auto-detect recommended mode (`fresh` or `migrate`)
-   - confirm mode with you
+   - confirm mode with you first
    - ask tailoring questions
    - run dry-run first
    - apply only after your approval
@@ -94,10 +109,10 @@ collab-framework-v2/scripts/scaffold-collab.sh \
 
 ## Who This Is For
 
-- teams using Claude and Codex together
+- teams working Human+Claude only
+- teams working Human+Claude+Codex
 - technical leads who want reliable AI execution quality
 - projects where handoffs and governance matter
-- teams upgrading from improvised AI workflows
 
 ---
 
@@ -116,11 +131,12 @@ collab-framework-v2/scripts/scaffold-collab.sh \
 - This framework is designed to be **adaptable**, not rigid.
 - It is not a substitute for human judgment.
 - Success depends on good project-specific profile configuration.
+- It focuses on collaboration governance and handoff quality, not agentic team deployment.
 
 ---
 
 ## License / Reuse
 
 Use, adapt, and extend for your team workflows.
-If you publish improvements, please share back patterns and lessons learned.
+If you publish improvements, share back lessons learned.
 
