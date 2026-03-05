@@ -142,10 +142,9 @@ Use, adapt, and extend for your team workflows.
 If you publish improvements, share back lessons learned!
 
 
-Larson Ortiz
+**Created by Larson Ortiz**
 
 larson@rookfolio.com
 
-linkedin.com/in/lro23/
-
+https://www.linkedin.com/in/lro23/
 
