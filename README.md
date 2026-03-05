@@ -23,8 +23,8 @@ This framework addresses those problems with a lightweight operating model that 
 ## What You Get
 
 ```text
-collab-framework-v2/
-├── framework-v2.md                # full methodology
+
+|── framework-v2.md                # full methodology
 ├── START_HERE.md                  # one-file onboarding instructions
 ├── collaboration-profile.yaml     # project-specific configuration
 ├── scripts/
