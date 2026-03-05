@@ -1,4 +1,4 @@
-# Collaboration Framework v2
+# Human <——> Claude Code <——> Codex Collaboration Framework
 
 A practical framework for reliable **Human + Claude + Codex** collaboration.
 
