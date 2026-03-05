@@ -139,5 +139,9 @@ collab-framework-v2/scripts/scaffold-collab.sh \
 ## License / Reuse
 
 Use, adapt, and extend for your team workflows.
-If you publish improvements, share back lessons learned.
+If you publish improvements, share back lessons learned!
+
+Larson Ortiz
+larson@rookfolio.com
+linkedin.com/in/lro23/
 
