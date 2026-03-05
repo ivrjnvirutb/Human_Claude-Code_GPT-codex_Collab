@@ -8,8 +8,10 @@ This package helps teams move from ad-hoc prompting to a structured, repeatable 
 
 ## Scope (Important)
 
-This package is designed for:
-- **Human + Claude (planning/governance workflows) + Codex (execution handoffs and controls)**
+This collaboration package is designed for:
+- **Human** (mission owner, constraints, and final acceptance)
+- **Claude** (vision alignment, planning, governance, and quality control)
+- **Codex** (scoped implementation, execution handoffs, and structured delivery artifacts)
 
 This package is **not** intended for:
 - Claude Code agentic-team deployment frameworks
