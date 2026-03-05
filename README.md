@@ -1,4 +1,4 @@
-# Collaboration Framework: Human <—> Claude Code <—> Codex 
+# Collaboration Framework: Human <—> Claude Code <—> GPT Codex 
 
 A practical framework for reliable **Human + Claude + Codex** collaboration.
 
