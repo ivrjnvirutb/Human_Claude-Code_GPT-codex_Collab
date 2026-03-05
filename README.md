@@ -1,6 +1,6 @@
 # Human <—> Claude Code <—> GPT Codex
 
-A practical framework for reliable **Human + Claude** and **Human + Claude + Codex** collaboration.
+A practical framework for reliable **Human + Claude + Codex** collaboration.
 
 This package helps teams move from ad-hoc prompting to a structured, repeatable workflow with clear roles, scoped execution, and governance checkpoints.
 
