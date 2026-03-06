@@ -93,7 +93,7 @@ The framework is built so migration does not blindly overwrite mature project do
 Users who already know how to work with npm can install the packaged skill directly with:
 
 ```bash
-npx collab-framework-v2-skill install --project
+npx @rookfolio/collab-framework-skill install --project
 ```
 
 That path is intended for advanced users who want tighter skill-based integration rather than a manual folder install.
