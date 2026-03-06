@@ -1,0 +1,26 @@
+# Template profile: copy and customize per project before running scaffold.
+project_name: "<PROJECT_NAME>"
+directory_model: "same-directory" # same-directory|worktree
+stage0_mode: "dynamic" # dynamic|required|disabled
+validation_mode: "manual" # manual|ci|mixed
+notebook_output_policy: "preserve" # preserve|clear
+branch_naming:
+  codex: "codex/batchNN-short-name"
+  claude: "claude/workflow-short-name"
+push_policy:
+  codex_push: false
+  claude_push_requires_human_approval: true
+readme_update_cadence: "milestone"
+automation_mode: "disabled" # disabled|minimal|full
+memory_required: true
+completion_gate_required: true
+blocked_policy:
+  hard_stop_on:
+    - "schema_scope_safety_ambiguity"
+    - "forbidden_scope_request"
+    - "contract_conflict_without_human_confirmation"
+metrics:
+  handoff_completeness_target: 0.95
+  completion_gate_first_pass_target: 0.85
+  avoidable_blocked_rate_target: 0.15
+  scope_drift_per_10_tasks_target: 1
